@@ -1,10 +1,16 @@
+.box{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
 .destaques {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
     /*height: 100%;*/
-    gap: .3rem;
+    gap: .2rem;
 }
 
 .destaques__titulo{
@@ -100,8 +106,3 @@
 
 
 
-.box{
-    align-items: flex-end;
-    display: flex;
-    justify-content: center;
-}
